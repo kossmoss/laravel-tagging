@@ -22,8 +22,15 @@ use Illuminate\Database\Eloquent\Model;
 class Tag extends Model
 {
     protected $table = 'tagging_tags';
+
     public $timestamps = false;
-    public $fillable = ['name', 'description'];
+
+    public $fillable = [
+        'name',
+        'description',
+        'tag_group_id',
+        'suggest',
+    ];
 
     /**
      * @param array $attributes
