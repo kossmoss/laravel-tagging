@@ -1,6 +1,8 @@
 Laravel Taggable Trait
 ============
 
+This package is an attempt to enhance tag and tag group management for the systems' moderators/admins. This version gives more possibilities to use inside properly secured admin area. Please consider to use the [original package](https://github.com/rtconner/laravel-tagging) if your tags supposed to be managed by non-privileged users.
+
 [![Latest Stable Version](https://poser.pugx.org/rtconner/laravel-tagging/v/stable.svg)](https://packagist.org/packages/rtconner/laravel-tagging)
 [![Total Downloads](https://poser.pugx.org/rtconner/laravel-tagging/downloads.svg)](https://packagist.org/packages/rtconner/laravel-tagging)
 [![License](https://poser.pugx.org/rtconner/laravel-tagging/license.svg)](https://packagist.org/packages/rtconner/laravel-tagging)
